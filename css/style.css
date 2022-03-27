@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+html {
+
+    font-size: 100%;
+    
+}
+body {
+    color:aqua;
+    font-family: 'Kiwi Maru', serif;
+    
+
+}
+    
+.mainlist {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+  
+    
+}
+
+.page-header {
+
+    float: rights;
+    text-align: right;
+    vertical-align: top;
+
+
+}
+
+.sub-title {
+
+    color: aqua;
+}
+
+li {
+    margin-left: 36px;
+
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+
+
+
+.home-content  {
+
+  text-align: center;
+  margin-top: 20%;
+
+  justify-content: center;
+  
+
+}
+.home-content p {
+  
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+
+}
+
+.page-title {
+
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #3b6fa0;
+    text-shadow: 1px 0 0 white;
+}
+
+
+.buttun {
+
+    font-size: 1rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 30px;
+
+}
+.buttun:hover {
+
+    background: #0090aa;
+
+}
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+
+}
+
+#home {
+    background-image: url(../img/mainimage.jpg);
+    min-height: 100vh;
+    background-color: rgb(240, 201, 149);
+    background-blend-mode: darken;
+    
+}
+#home .page-title {
+    text-transform: none;
+}
+
+
+/*---ここから日記のページ---*/
+
+.date {
+    color: #3b6fa0;
+    font-size: 20px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+p {
+    color: darkslateblue;
+    font-size: 12.5px;
+
+}
+
+.warapper { 
+
+    color: #31628f;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 1px 0 0 white;
+}
+
+.daily-contents warapper {
+
+    font-size: 20px;
+
+}
+
+
+
+
+#daily {
+
+    background-image: url(../img/sakura.jpeg);
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.main-contents {
+
+    padding-left: 20px;
+    text-align: left;
+
+    
+}
+
+article {
+
+    width: 74%;
+}
+
+aside {
+
+    width: 22%;
+ 
+}
+
+.sub-titile {
+
+    color: #3b6fa0;
+    font-size: 25px;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+.sub-menu {
+
+    list-style: square;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(81, 216, 205);
+    
+    
+
+}
+.sub-menu li a {
+    font-size: 20px;
+    color: #3b6fa0;
+}
+
+aside p {
+
+    font-size: 25px;
+    color: rgb(105, 27, 37);
+    padding-left: 20px;
+    font-family: serif;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
+.daily-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+/*ここからプロフ*/
+
+.mydate-list {
+
+    color: rgb(15, 99, 26);
+    text-align: left;
+    font-size: large;
+    list-style: none;
+}
+
+.mydata {
+
+    font-size: 20px;
+    color: rgb(88, 202, 164);
+    padding-left: 30px;
+   
+
+}
+.main-profule {
+
+    color: #3b6fa0;
+    font-size: larger;
+    padding-left: 25px;
+}
+
+.mydate-list {
+
+    line-height: 50px;    
+
+}
+
+/*ここからフッター*/
+
+footer {
+
+    background-color: rgb(88, 70, 41);
+    text-align: center;
+    padding: 26px 0;
+    margin-top: 50px;
+
+}
+
+footer p {
+
+    color: white;
+    font-size: 1px;
+}
+
+/*ここからスタディログ*/
+
+.main-contents h2 img{
+
+    font-size: 25px;
+
+    height: auto;
+    width: auto;
+}
+
+.main-contents a {
+
+    font-size: 3px;
+    border-bottom: #dd1223;
+    color: rgb(212, 21, 21);
+
+}
+
+span {
+
+    line-height: 30px;
+}
