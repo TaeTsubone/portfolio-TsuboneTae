@@ -1,0 +1,213 @@
+.logo {
+
+    width: 210px;
+    margin-top: 14px;
+    font-size: 30px;
+    font-family: 'Kiwi Maru', serif
+
+}
+.main-nav {
+
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  
+    list-style: none;
+    margin: 0 0 0 auto;
+}
+
+.main-nav li {
+
+    margin-left: 10px;
+    color: rgb(54, 106, 202);
+ 
+   
+}
+
+header {
+
+    width: 100%;
+    display: flex;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode: hard-light;
+    padding-top: px;
+    top: 0%;
+    position: fixed;
+  
+
+    
+}
+
+.big-bg {
+
+    background-size: cover;
+    background-position: center top;
+    
+}
+#home {
+
+    background-image: url(img/外観.jpg);
+    min-height: 120vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: multiply;
+    top: 0%;
+    
+
+}
+.page-titile {
+
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0%;
+    text-transform: none;
+    color: rgb(192, 245, 233);
+    letter-spacing: 0ch;
+    text-shadow: 2px 0 0 white;
+    white-space: nowrap;
+    padding-bottom: 0%;
+    
+}
+
+span {
+
+    font-size: 5.5rem;
+    color: rgb(180, 245, 233);
+    letter-spacing: 3px;
+    padding-left: 10px;
+
+}
+    
+
+
+section p {
+
+    font-size: 15px;
+    margin-top: 0%;
+    text-align: center;
+    color: rgb(70, 45, 9);
+}
+/*ここからコンセプト*/
+
+
+section h1 {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 2rem;
+    margin-bottom: 0%;
+    margin-top: 10%;
+
+}
+section h3 {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+article {
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-right: 0%;
+    position: relative;
+    width: 500px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-family: 'Kiwi Maru', serif;
+}
+article img {
+    width: 200px;
+    position: absolute;
+    float: right;
+    left: 40rem;
+    top: 5px;
+}
+
+
+
+#contents {
+
+    background-image: url(img/gaikan.webp);
+    min-height:140vh;
+    background-color:rgba(255, 255, 255, 0.534);
+    background-blend-mode: soft-light;
+    position: relative;
+
+
+}
+
+.cardA {
+
+    width: 20rem;
+    left: 18%;
+    position: absolute;
+    background-color:white;
+    top: 15%;
+}
+.card-body a {
+
+    text-decoration: none;
+    color: rgb(114, 90, 25);
+}
+
+
+
+.cardB {
+
+    width: 20rem;
+    right: 20%;
+    position: absolute;
+    background-color:white;
+    top: 15%;
+}
+
+.recomend {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: antiquewhite;
+    margin-bottom: 0%;
+
+}
+
+footer {
+
+    background-color: rgba(167, 125, 70, 0.932);
+    text-align: center;
+    
+    height: 50px;
+    width: 100%;
+}
+
+footer small {
+
+    color: aliceblue;
+    font-size: 5px;
+    list-style: none;
+    
+    top: 10%;
+
+}
+
+footer li {
+    float: right;
+    margin-left: 5px;
+
+
+}
+.ACCESS{
+
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding-left: 5%;
+    font-family:  'Kiwi Maru', serif;;
+    margin-top: 20px;
+}
+.ACCESS  h1 {
+
+    font-size: 30Px;
+    color: rgb(121, 78, 14);
+    
+}
+
